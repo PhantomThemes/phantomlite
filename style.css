@@ -4,7 +4,7 @@ Theme URI: http://phantomthemes.com/downloads/phantom-lite-wordpress-theme/
 Author: phantomthemes
 Author URI: http://phantomthemes.com
 Description: Phantom lite is minimalist WordPress theme, probably the lightest theme in WordPress, Designed considering site speed in mind.It Consist of Blog Layout as well Corporate Look with Awesome Slider, Service Section, About Section, Blog Section, Portfolio Section, Testimonial Section, Counter Section and Client Section. Phantom lite has many features like multiple sidebar,list layout, grid layout specially designed for the Blog and Agency.view full demo at http://phantomthemes.com/view?theme=PhantomLite
-Version: 1.1.8
+Version: 1.1.9
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: phantomlite
@@ -908,6 +908,9 @@ section.footer {
     padding: 15px 0;
     color: #fff;
 }
+.copyright a:hover{
+    color: #777;
+}
 
 
 
@@ -916,7 +919,6 @@ section.footer {
 .widget {
     margin-bottom: 30px;
     padding: 15px;
-    background: #fff;
 }
 .widget ul,
 .widget ol {

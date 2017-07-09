@@ -5,8 +5,8 @@ Tags: two-columns,three-columns,full-width-template,sticky-post,grid-layout,cust
 
 
 Requires at least: 4.5
-Tested up to: 4.7.2
-Stable tag: 1.1.8
+Tested up to: 4.8
+Stable tag: 1.1.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,6 +48,10 @@ GNU General Public License for more details.
 
 
 == Changelog ==
+
+=1.1.9 - July 9 2017 =
+* Fixed Footer coyright hover link issue
+* Fixed Homepage footer widget background color overlap 
 
 =1.1.8 - Feb 12 2017 =
 * Minor Fixes
