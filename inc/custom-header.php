@@ -42,10 +42,10 @@ function complete_header_style() {
 	$header_text_color = get_header_textcolor();
 
 	/*
-	 * If no custom options for text are set, let's bail.
-	 * get_header_textcolor() options: Any hex value, 'blank' to hide text. Default: HEADER_TEXTCOLOR.
-	 */
-	if ( HEADER_TEXTCOLOR === $header_text_color ) {
+		* If no custom options for text are set, let's bail.
+		* get_header_textcolor() options: Any hex value, 'blank' to hide text. Default: add_theme_support( 'custom-header' ).
+		*/
+	if ( get_theme_support( 'custom-header', 'default-text-color' ) === $header_text_color ) {
 		return;
 	}
 
@@ -54,10 +54,10 @@ function complete_header_style() {
 	<style type="text/css">
 	<?php
 		// Has the text been hidden?
-		if ( ! display_header_text() ) :
+		if ( 'blank' == $header_text_color ) :
 	?>
-		.site-title,
-		.site-description {
+		header .logo-tag h1,
+		header .logo-tag h2 {
 			position: absolute;
 			clip: rect(1px, 1px, 1px, 1px);
 		}
@@ -65,21 +65,12 @@ function complete_header_style() {
 		// If the user has set a custom color for the text use that.
 		else :
 	?>
-		.color-text{
-			color: #<?php echo esc_attr( $header_text_color ); ?> !important;
+		header .logo-tag h1,
+		header .logo-tag h2,
+		header .navbar-default .navbar-nav li a {
+			color: #<?php echo esc_attr( $header_text_color ); ?>;
 		}
-		.color-bg{
-			background-color: #<?php echo esc_attr( $header_text_color ); ?> !important;
-		}
-		section.header{
-            background:url('<?php header_image(); ?>');
-        }  
 	<?php endif; ?>
-
-	if($header_text_color){
-	.color-bg{background-color:#<?php echo esc_attr($header_text_color);?>}
-	a.color-text{color:#<?php echo esc_attr($header_text_color);?>}
-	}
 	</style>
 	<?php
 }

@@ -4,9 +4,9 @@ Contributors: phantomthemes
 Tags: two-columns,three-columns,full-width-template,sticky-post,grid-layout,custom-logo,right-sidebar,translation-ready, custom-background, theme-options,featured-images, custom-menu, threaded-comments, blog, footer-widgets
 
 
-Requires at least: 4.5
-Tested up to: 4.8
-Stable tag: 1.1.9
+Requires at least: 4.6
+Tested up to: 4.9.8
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,11 +27,12 @@ Phantomlite is minimalist WordPress theme, probably the lightest theme in WordPr
 == Frequently Asked Questions ==
 
 = Does this theme support any plugins? =
+Yes it support Contact Form 7 and One Click Demo Import Plugin.
 
 Phantom Lite includes support for Infinite Scroll in Jetpack.
 
 == Copyright ==
-phantomlite WordPress Theme, Copyright 2016 Oceanwebthemes
+phantomlite WordPress Theme, Copyright 2018 PhantomThemes
 phantomlite is distributed under the terms of the GNU GPL
 
 This program is free software: you can redistribute it and/or modify
@@ -48,6 +49,10 @@ GNU General Public License for more details.
 
 
 == Changelog ==
+
+=1.2.0 - July 9 2017 =
+* Minor CSS & Header Color Fix
+* One Click Demo Import Plugin and Contact Form 7 Intergrated.
 
 =1.1.9 - July 9 2017 =
 * Fixed Footer coyright hover link issue
