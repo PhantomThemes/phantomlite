@@ -50,6 +50,9 @@ GNU General Public License for more details.
 
 == Changelog ==
 
+=1.2.1 - Sep 23  2018 =
+*ReadMe for github support
+
 =1.2.0 - July 9 2017 =
 * Minor CSS & Header Color Fix
 * One Click Demo Import Plugin and Contact Form 7 Intergrated.
