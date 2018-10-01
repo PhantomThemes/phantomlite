@@ -6,7 +6,7 @@ Tags: two-columns,three-columns,full-width-template,sticky-post,grid-layout,cust
 
 Requires at least: 4.6
 Tested up to: 4.9.8
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,8 +50,8 @@ GNU General Public License for more details.
 
 == Changelog ==
 
-=1.2.1 - Sep 23  2018 =
-*ReadMe for github support
+=1.2.1 - Oct 1  2018 =
+* ReadMe for github support
 
 =1.2.0 - July 9 2017 =
 * Minor CSS & Header Color Fix
